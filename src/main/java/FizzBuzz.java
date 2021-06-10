@@ -1,10 +1,11 @@
 public class FizzBuzz {
 
-    public String convert(int i) {
-        if (i == 3){
+    public String convert(int number) {
+
+        if (number % 3 == 0) {
             return "fizz";
         }
-        else
-        return "1";
+
+        return String.valueOf(number);
     }
 }

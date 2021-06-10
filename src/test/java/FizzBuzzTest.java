@@ -10,13 +10,15 @@ class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         Assertions.assertEquals("1", fizzBuzz.convert(1));
+        Assertions.assertEquals("2", fizzBuzz.convert(2));
     }
-
+    
     @Test
-    void fizzBuzzReturnsFizzWhenDivisibleByThree() {
+    void fizzBuzzConvertsMultiplesofThree() {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        Assertions.assertEquals("3", fizzBuzz.convert(3));
+        Assertions.assertEquals("fizz", fizzBuzz.convert(3));
+
     }
 }

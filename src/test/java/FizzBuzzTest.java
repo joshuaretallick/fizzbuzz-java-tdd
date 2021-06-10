@@ -25,7 +25,7 @@ class FizzBuzzTest {
     }
 
     @Test
-    @DisplayName("If number is divisble by 3 only Fizz is returned")
+    @DisplayName("If number is divisible by 3 only Fizz is returned")
     void fizzBuzzConvertsMultiplesofThree() {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
@@ -35,6 +35,12 @@ class FizzBuzzTest {
     }
 
     @Test
-    void fizz() {
+    @DisplayName("If number is divisible by 5 only Buzz is returned")
+    void fizzBuzzConvertsMultiplesOfFive() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        Assertions.assertEquals("Buzz", fizzBuzz.convert(5));
+
     }
 }

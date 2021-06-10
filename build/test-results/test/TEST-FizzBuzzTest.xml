@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-10T13:13:14" hostname="Joshuas-iMac.local" time="0.016">
+<testsuite name="FizzBuzzTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-10T13:20:55" hostname="Joshuas-iMac.local" time="0.016">
   <properties/>
-  <testcase name="fizzBuzzLeavesNormalNumbersAlone()" classname="FizzBuzzTest" time="0.015"/>
-  <testcase name="fizzBuzzConvertsMultiplesofThree()" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="If number is not divisible by 3 or 5 it is returned" classname="FizzBuzzTest" time="0.014"/>
+  <testcase name="If number is divisible by 3 AND 5 FizzBuzz is returned" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="If number is divisble by 3 only Fizz is returned" classname="FizzBuzzTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

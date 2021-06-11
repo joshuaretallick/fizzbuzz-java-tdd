@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class FizzBuzz {
 
-    public String convert(int number) {
+    public String fizzBuzzConverter(int number) {
 
         if (number % 3 == 0 && number % 5 == 0)
             return "FizzBuzz";
@@ -11,5 +13,9 @@ public class FizzBuzz {
             return "Buzz";
         }
         return String.valueOf(number);
+    }
+
+    public static void main(String[] args) {
+
     }
 }
